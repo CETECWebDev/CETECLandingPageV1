@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Cart() {
+export default function Card() {
   return (
     <div className="p-4 bg-[#FFF7F0] rounded-lg shadow-md text-center">
       <div className="">
