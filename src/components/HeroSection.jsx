@@ -5,7 +5,7 @@ export default function HeroSection() {
     <div className="relative">
       <img src="/HeroSection.svg" className=""></img>
       <div className="absolute  top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h2 className="text-xl md:text-2xl font-bold mb-2 text-center ">
+        <h2 className="text-xl md:text-2xl  font-bold mb-2 text-center ">
           ما در هر قدم کنار شما هستیم
         </h2>
         <p className="mb-4 text-sm md:text-base pt-2">
