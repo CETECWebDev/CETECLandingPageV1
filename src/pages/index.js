@@ -1,6 +1,7 @@
 // Import the cart component
 import React from 'react';
 import Cart from '../components/cart';
+import HeroSection from '@/components/HeroSection';
 
 export default function Home() {
   return (
@@ -11,6 +12,10 @@ export default function Home() {
         <Cart />
         <Cart />
       </div>
+
+      <HeroSection>
+        
+      </HeroSection>
     </div>
   );
 }
