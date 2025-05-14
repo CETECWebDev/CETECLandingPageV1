@@ -1,8 +1,5 @@
 @tailwind base;
 @tailwind components;
-<<<<<<< HEAD
-@tailwind utilities;
-=======
 @tailwind utilities;
 @font-face {
   font-family:"YekanBakh"; ;
@@ -29,4 +26,3 @@
 }
 
 
->>>>>>> edited
