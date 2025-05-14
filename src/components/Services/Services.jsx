@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Services() {
   return (
-    <div className='bg-gray-500 py-8 px-4'>
+    <div className='py-8 px-4'>
       <section className="max-w-6xl mx-auto space-y-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-right">
           <div className="bg-white p-6 rounded-lg shadow">

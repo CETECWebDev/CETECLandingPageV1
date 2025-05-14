@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Questions() {
     return (
-        <div className='bg-gray-500 py-8 px-4'>
+        <div className='py-8 px-4'>
             <div className="space-y-8 text-right">
                 <h1 className="text-4xl font-bold">پرسش‌های متداول</h1>
 
