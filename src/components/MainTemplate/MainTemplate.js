@@ -1,22 +1,15 @@
-import React from 'react'
-import Card from '../Card/Card'
-import HeroSection from '../HeroSection/HeroSection'
+import React from "react";
+import HeroSection from "../HeroSection/HeroSection";
+import CardSection from "../CardSection/CardSection";
 
 export default function MainTemplate() {
-    return (
+  return (
+    <div className="container px-5">
+      <div className="flex gap-4">
+        <CardSection></CardSection>
+      </div>
 
-        <div className="container px-5">
-
-            
-            <div className="flex gap-4">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-            </div>
-
-            <HeroSection />
-
-        </div>
-    )
+      <HeroSection></HeroSection>
+    </div>
+  );
 }

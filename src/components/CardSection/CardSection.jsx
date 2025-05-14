@@ -1,7 +1,7 @@
 import React from 'react'
-import Cart from './Cart';
+import Card from '@/components/Card/Card';
 
-export default function CartSection() {
+export default function CardSection() {
     const features = [
         {
           image: "/cart1.svg",
@@ -29,7 +29,7 @@ export default function CartSection() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {features.map((item, index) => (
-          <Cart
+          <Card
             key={index}
             image={item.image}
             title={item.title}
