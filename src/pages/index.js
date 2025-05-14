@@ -1,11 +1,14 @@
-import Services from "./components/Services/Services";
-import Questions from "./components/Questions/Questions";
+import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   return (
     <>
-      <Services />
-      <Questions /> 
+      <Header />
+      <Footer />
     </>
   )
 }
+
+
+

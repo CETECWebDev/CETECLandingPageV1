@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family:"YekanBakh"; ;
+  src: url(/font/Yekan-Bakh-Fa-En-04-Regular.ttf);
+}
+
+@font-face {
+  font-family:"YekanBakhBold"; ;
+  src: url(/font/Yekan-Bakh-Fa-En-06-Bold.ttf);
+}
+
+
+/* .container { */
+  /* padding: 20px; */
+  /* max-width: 90%;
+  margin: 0 auto;
+} */
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
