@@ -1,10 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/edited
 @font-face {
   font-family:"YekanBakh"; ;
   src: url(/font/Yekan-Bakh-Fa-En-04-Regular.ttf);
