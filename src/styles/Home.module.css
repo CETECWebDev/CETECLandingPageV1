@@ -1,11 +1,8 @@
-<<<<<<< HEAD
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* اعمال جهت RTL برای کل صفحه */
-=======
->>>>>>> edited
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -14,12 +11,9 @@
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
 
-<<<<<<< HEAD
   direction: rtl; /* 👈 اضافه شد */
   text-align: right; /* 👈 اضافه شد */
 
-=======
->>>>>>> edited
   display: grid;
   grid-template-rows: 20px 1fr 20px;
   align-items: center;
@@ -50,11 +44,8 @@
 
 .main ol {
   font-family: var(--font-geist-mono);
-<<<<<<< HEAD
   padding-right: 0; /* 👈 چون راست‌چینه */
-=======
   padding-left: 0;
->>>>>>> edited
   margin: 0;
   font-size: 14px;
   line-height: 24px;
@@ -77,10 +68,7 @@
 .ctas {
   display: flex;
   gap: 16px;
-<<<<<<< HEAD
   flex-direction: row-reverse; /* 👈 دکمه‌ها از راست به چپ */
-=======
->>>>>>> edited
 }
 
 .ctas a {
@@ -118,10 +106,7 @@ a.secondary {
   grid-row-start: 3;
   display: flex;
   gap: 24px;
-<<<<<<< HEAD
   flex-direction: row-reverse; /* 👈 آیکون‌های فوتر RTL */
-=======
->>>>>>> edited
 }
 
 .footer a {
@@ -134,10 +119,7 @@ a.secondary {
   flex-shrink: 0;
 }
 
-<<<<<<< HEAD
-=======
 /* Enable hover only on non-touch devices */
->>>>>>> edited
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
@@ -162,19 +144,16 @@ a.secondary {
   }
 
   .main {
-<<<<<<< HEAD
     align-items: flex-end; /* 👈 تطبیق با متن راست‌چین */
   }
 
   .main ol {
     text-align: right; /* 👈 هماهنگ با RTL */
-=======
     align-items: center;
   }
 
   .main ol {
     text-align: center;
->>>>>>> edited
   }
 
   .ctas {

@@ -5,6 +5,7 @@ import Questions from './components/Questions/Questions';
 import React from "react";
 import Header from "@/components/Header/Header";
 import MainTemplate from "@/components/MainTemplate/MainTemplate";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
 
         
     
+      
+      <Footer />
     </>
   );
 }
