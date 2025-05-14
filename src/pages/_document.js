@@ -4,7 +4,8 @@ export default function Document() {
   return (
     <Html lang="fa" dir="rtl">
       <Head />
-      <body>
+      
+      <body className="font-[YekanBakh]">
         <Main />
         <NextScript />
       </body>
