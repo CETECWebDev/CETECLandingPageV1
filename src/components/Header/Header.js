@@ -10,7 +10,7 @@ export default function Header() {
         {/* Top Part Start */}
 
         <div className='w-full flex justify-between items-center px-5'>
-          <div><img className='w-[clamp(100px,10dvw,190px)]' src="/svg/logo.svg" alt="" /></div>
+          <div><img className='w-[clamp(100px,10dvw,190px)]' src="/img/cetec.png" alt="" /></div>
           <div className='flex justify-center items-center gap-2 sm:gap-3 md:gap-5 text-[clamp(10px,0.9dvw,25px)] font-bold'>
             <button className='border-2 px-3 py-2 rounded-md border-red-500 text-red-500 cursor-pointer'>ثبت نام کنید </button>
             <button className='border-2 px-3 py-2 rounded-md border-green-500 text-green-500 cursor-pointer'> وارد شوید </button>

@@ -8,7 +8,7 @@ export default function Footer() {
         {/* block 1 */}
 
         <div className='lg:pr-10'>
-          <img src="/svg/logo.svg" alt="" />
+          <img src="/img/cetec.png" alt=""  className='w-[clamp(100px,10dvw,190px)]'/>
           <div className='mt-7 w-[70%] text-[14px]'>شرکت کارگزاری بانک تجارت از ابتدای خرداد ماه 1373 فعالیت خود را با عضویت در سازمان بورس و اوراق بهادار آغاز نمود.</div>
         </div>
 

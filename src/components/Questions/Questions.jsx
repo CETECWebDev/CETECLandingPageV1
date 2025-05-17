@@ -42,7 +42,7 @@ export default function Questions() {
                     </div>
 
                     <div className="bg-white p-6 rounded-lg shadow text-center">
-                        <img src="/img/img.jpg" alt="پشتیبانی" className="w-full max-w-md mx-auto my-4 rounded-md" />
+                        <img src="/img/question.svg" alt="پشتیبانی" className="w-full max-w-md mx-auto my-4 rounded-md" />
                         <p className="text-lg font-medium mt-2">سوالات بیشتری دارید؟</p>
                         <p className="text-lg text-gray-700">با 021-2486847 تماس بگیرید</p>
                     </div>

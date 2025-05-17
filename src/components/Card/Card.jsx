@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Card( { image, title, description }) {
   return (
-    <div className="p-4 bg-[#FFF7F0] rounded-lg shadow-md text-center">
+    <div className="pb-4 overflow-hidden bg-white rounded-lg shadow-md text-center">
       <div className="">
         <img
           src={image} // Replace with the actual image path
