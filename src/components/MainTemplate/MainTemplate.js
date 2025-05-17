@@ -7,13 +7,12 @@ import Services from "../Services/Services";
 
 export default function MainTemplate() {
   return (
-    <div className="container px-5">
+    <>
       <PurposeBox></PurposeBox>
 
-      <div >
-        <CardSection></CardSection>
-      </div>
-
+      
+      <CardSection></CardSection>
+      
 
       <Services />
 
@@ -24,6 +23,6 @@ export default function MainTemplate() {
       <Questions />
 
 
-    </div>
+    </>
   );
 }

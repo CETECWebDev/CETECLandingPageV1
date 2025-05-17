@@ -22,6 +22,7 @@ export default function PurposeBox() {
     },
   ];
   return (
+    <div className="container">
     <div className="flex flex-col gap-8 py-12 xl:flex-row items-center">
       <div className="flex ">
         <div className="grid grid-cols-2 gap-6  mx-auto relative">
@@ -64,6 +65,7 @@ export default function PurposeBox() {
           خدمات متنوعی که برای شما عزیزان در نظر گرفته شده است بهره‌مند شوید.
         </p>
       </div>
+    </div>
     </div>
   );
 }
